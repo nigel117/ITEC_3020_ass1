@@ -1,0 +1,129 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin:0;
+
+    background: url(moroccan-flower.png) repeat 0 0;
+}
+
+header {
+    background-color: #94c997;
+    color: #383c69;
+    text-align: center;
+
+}
+
+nav ul {
+    text-align: center;
+}
+
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 18px;;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(164, 162, 162);
+    color: white;
+    text-align: center;
+}
+
+body {
+    position: relative;
+  }
+  
+  body::after {
+    content: '';
+    display: block;
+    height: 50px;
+    /* Set same as footer's height */
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+  }
+
+
+
+  .navbar {
+    text-align: center;
+    background-color: #94c997;
+    
+    
+}
+
+.navbar-menu {
+    display: flex;
+    text-align: center;
+
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a {
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    font-size: 30px;
+    
+}
+
+.menu-item a:hover {
+    background-color: #383c69;
+}
+
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #383c69;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    min-width: 150px;
+    z-index: 1000;
+    width: 200px;
+}
+
+.dropdown li {
+    border-bottom: 1px solid #9e9c9c;
+}
+
+.dropdown li a {
+    padding: 10px 20px;
+}
+
+.dropdown li a:hover {
+    background-color: #918e8e;
+}
+
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+
+
+
+
+  

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Nigel's Portfolio</title>
+    <meta charset="utf-8">
+    <style>
+        .content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            margin: 10px;
+            min-width: 300px;
+            max-width: 45%;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            max-height: 350px; 
+            object-fit: contain; 
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 35px;">~My Portfolio~</h1>
+        <nav class="navbar">
+            <ul class="navbar-menu">
+                <li class="menu-item">
+                    <a href="#">Menu</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_me.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="project">
+                <h1 style ="color:rgb(32, 32, 71);text-align:center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';;"> Python</h1>
+                <p style="font-size: 20px;"> Python was my very first coding language from when I was in high school and I have loved ever since! 
+                This specific project is a card game in which the player is given 100 points and then presented with a playing card,
+                the player must then guess whether the next card shown will have a higher or lower value than the first card, they must bet 
+                from 1 to 100 points on their guess. The game continues till either the player gambles all of their money away and therefore loses, or they succesfully
+                gain 500 or more points within 10 rounds, if they do, they win! Feel free to inpect the game code further by clicking the "View Project Code" button. </p>
+                <img src="pythongame.png" alt="Python Game">
+                <a href="assg2_218838722.py" download="assg2_218838722.py">
+                    <button type="button">View Project Code</button>
+                </a>
+            </div>
+            <div class="project">
+                <h1 style ="color:rgb(32, 32, 71);text-align:center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';;"> Java</h1>
+                <p style="font-size: 20px;">I have been coding with Java since my first year at York and there were many projects I could includ here. 
+                    I chose this project in particular becasue it demonstrates my ability to code using typical Java capabilities as well as Java GUIs. Although it is a simple
+                    game the code is actually quite elaborate, in all, I am immensely proud of this project, and although Java is not my go to language, I still
+                    know my way around! If you would like to view the project code more in depth you can hit the "View Project Code" button to take a closer look.</p>
+                <img src="tictactoe.png" alt="Tic Tac Toe">
+                <a href="mainmenu.java" download="tictactoe.java">
+                    <button type="button">View Project Code</button>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nigel Andrews. All Rights Reserved.</p>
+        <p><a href="contact.html">Contact</a></p>
+    </footer>
+</body>
+</html>

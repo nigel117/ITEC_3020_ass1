@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Nigel's Portfolio</title>
+    <meta charset="utf-8">
+    <style>
+        .content-section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .text-content {
+            width: 400px;
+            margin-right: 20px;
+        }
+
+        .skills-list {
+            padding-bottom: 200px;
+            margin-left: 20px;
+        }
+
+        .resume-section {
+            
+            margin-left: 20px;
+            text-align: center;
+        }
+
+        iframe {
+            border: 3px solid #030303;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 35px;">~My Portfolio~</h1>
+        <nav class="navbar">
+            <ul class="navbar-menu">
+                <li class="menu-item">
+                    <a href="#">Menu</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_me.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content-section">
+            <div class="text-content">
+                <h1 style= "color:rgb(32, 32, 79);text-align:center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';font-size: 50px;" >All About Me!</h1>
+                <p style="font-size:20px">Here you'll get to know me better on a personal level, this includes my goals and ambitions,
+                    hobbies and interests and anything else worth knowing about me. To begin with, I was born In Barrie Ontario
+                and have lived there for the majority of my life. I attended Eastview Secondary and graduated in 2021 and quickly
+                found an interest in programming. Armed with my newfound passion I decided to major in Information Technology at 
+                York University. I am now in my Fourth year and will graduate in 2025 (hopefully). After post-secondary, I hope to work
+                specifically in the computer security field because I've heard that it is usually a fast-paced environment with lots to
+                learn. In terms of my personal interests, I love to read fantasy and Sci-Fi books, one of my personal favourite books is
+                American Gods by Neil Gaiman, although I do enjoy the classics. Besides reading I love going on adventures out in the
+                wilderness, as well as skateboarding with my friends.
+                </p>
+            </div>
+            <div class="skills-list">
+                <h2 style="text-align: center;">Skills</h2>
+                <p style="font-size: 20px; text-align: center;">I am proficient with the following coding languages:
+                <ul>
+                    <li>Python(My favourite)</li>
+                    <li>Java</li>
+                    <li>MatLab</li>
+                    <li>RStudio</li>
+                    <li>Hopefully HTML and CSS!</li>
+                    <li> I also have some experience with the DBMS: MySQL</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="resume-section">
+                <h2>My Resume (Not updated)</h2>
+                <iframe src="My Resume.pdf" width="350" height="400"></iframe>
+                <p>
+                    <a href="My Resume.pdf" download="My Resume.pdf">
+                        <button type="button">Download Resume</button>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nigel Andrews. All Rights Reserved.</p>
+        <p>
+            <a href="contact.html">Contact</a>
+        </p>
+    </footer>
+</body>
+
+</html>
