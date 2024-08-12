@@ -1,3 +1,12 @@
+:root {
+    --clr-dark: #3f4041;
+    --clr-light:#ffffff;
+}
+.dark-mode{
+    --clr-light: #3f4041;
+    --clr-dark:#ffffff;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     line-height: 1;
@@ -6,8 +15,8 @@ body {
     flex-direction: column;
     position: relative;
     margin:0;
-
-    background: url(moroccan-flower.png) repeat 0 0;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
 }
 
 header {
@@ -123,6 +132,16 @@ body {
 }
 
 
+#colour-theme{
+    position: absolute;
+    right: 20px;
+    top: 110px;
+    background-color: #383c69;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+
+}
 
 
 

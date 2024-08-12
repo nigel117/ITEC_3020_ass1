@@ -1,14 +1,40 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
-<head> 
+<head>
     <link rel="stylesheet" href="styles.css">
-    <title> Nigel's Portfolio </title>
+    <title>Nigel's Portfolio</title>
     <meta charset="utf-8">
+    <style>
+        body{
+          text-align: center;
+        }
+        .post {
+            margin: 50px ; 
+            padding: 20px;
+            max-width: 800px; 
+            background-color: var(--clr-light);
+            border: 1px solid #ccc;
+    
+        }
 
+        .date {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .content {
+            margin-top: 10px;
+        }
+
+      
+    </style>
 </head>
+
 <body>
     <header>
+        <button id= "colour-theme" 
+        >Change Colour Theme </button>
         <h1 style="font-size: 35px;">~My Portfolio~</h1>
         <nav class="navbar">
             <ul class="navbar-menu">
@@ -26,8 +52,10 @@
         </nav>
     </header>
     <main>
-     <h1>Nigel's Blog</h1>
-     <p> </p>
+        <div class = "body">
+        <h1 style="color: #94c997">Nigel's Blog</h1>
+        <div id="blog-list"> </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 Nigel Andrews. All Rights Reserved.</p>
@@ -35,7 +63,8 @@
             <a href="contact.html">Contact</a>
         </p>
     </footer>
+    <script src="./scripts.js"></script>
+    <script src="./main.js"></script>
 </body>
-
 
 </html>

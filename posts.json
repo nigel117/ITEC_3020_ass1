@@ -1,0 +1,15 @@
+[
+    {
+
+        "title": "First Post",
+        "name": "Nigel Andrews",
+        "date": "2024-08-8",
+        "content": "As a dark mode user, I had originally planned to include this option for the first iteration of the website I created for assignment 1. However, as the project progressed, so did the to-do list, eventually, the time it would take to add this feature simply wasn't worth it. When assignment 2 rolled around and this functionality then became a requirement, I knew it would be a great learning experience, as well as a great way to increase the user’s experience. Truthfully, implementing this feature wasn't as difficult as I had imagined it would be, there is a fair bit of documentation online, whether it's a forum like Stack or a YouTube video, there was a lot to go off of. I found this article titled: Build An Easy Light/Dark Mode Toggle With CSS & JavaScript (https://www.youtube.com/watch?v=Kxv7GIDK9tg), to be very helpful. In the video, the programmer doesn't create a button so I had to figure that out on my own. I believe a dark mode option is one of the best ways to improve a website's usability so I'm very happy I was able to implement it on mine."
+    },
+    {
+        "title": "Second Blog Post",
+        "name": "Nigel Andrews",
+        "date": "2024-08-12",
+        "content": "Upon seeing the relative ease of creating the dark mode button I was instilled with a false sense of security for part two of this assignment. For me, the hardest part was that there was very little documentation or online resources for this specific task so it was drastically harder to research. However, I used the knowledge I had from the course readings and slides to complete the fill-in-the-blank section of the provided code. From there I moved on to creating the JSON file and formatting it correctly for when I had to add the blog features. After that I moved to the blog.html file, I struggled a bit to grasp how JS and HTML interacted with each other, but after a bit of time, I understood and added the right line of code. Now, at this time the coding was done, however, it still wasn't loading on the website. I tried everything, going through each line of code to see if I could identify the culprit, but I found nothing. I spent quite a bit of time researching and eventually used the inspect element on the website to see if there was an error, and of course, there was. Following this I had to then research exactly what the error meant and admittedly, I turned to OpenAI’s ChatGPT. The AI informed me that the error could potentially be solved using a VScode extension called Live Server. I don't condone using AI for assignments however this was an error with the IDE and it was unrelated to the assignment completely. Eventually, Live Server did the trick and the blog posts loaded."
+    }
+]
